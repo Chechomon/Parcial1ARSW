@@ -1,0 +1,32 @@
+1
+ a. Falso
+ b. Verdadero
+ c. Verdadero
+ d. Verdadero
+ e. Falso
+
+2.
+ a. Sin estado: No guarda recursos ya que utiliza HTTP y solo los envia
+ b. Utiliza los verbos de HTTP por ejemplo GET y POST
+ c. Implementa URI
+ d. Tiene hipermedios: Los recursos navegan sin necesidad de hacer transformaciones extras
+
+3. 
+
+4. La diferencia es que en cliente/servidor solo inicia la comunicacion el cliente, ya que
+solo usa los recursos del servidor cuando sea necesario. En cambio en P2P es que en si cualquier
+parte puede iniciar la comunicacion cuando la necesite y no hay un cliente o servidor definido.
+
+5. Un ejemplo es Ares, este es P2P ya que cualquier persona a la vez puede estar descargando cualquier archivo
+al mismo tiempo, en el cual cualquier parte necesita un recurso y en si cualquiera de las dos partes puede ser 
+cliente o servidor.
+
+6. Es una notacion XML y sirve para describir un servicio web.
+
+7. Un objeto es Thread-Safety porque es un objeto que es inmutable y a la misma vez con estados.
+
+8. Son variables en las que todos los metodos estan sincronizados. Hay todos los tipos de variables que nos han
+enseñado lo unico es que al inicio se pone Atomic para definirlas de la manera correcta en los hilos. Por ejemplo:
+AtomicBoolean, AtomicLong, etc.
+ 
+ 
